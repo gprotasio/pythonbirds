@@ -16,6 +16,7 @@ if __name__ == '__main__':
     print(Pessoa.cumprimentar(carlos))
     print(id(carlos))
     print(carlos.cumprimentar())
+    print(carlos.name)
     print(carlos.age)
     for children in carlos.children:
         print(children.name)
