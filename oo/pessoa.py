@@ -5,7 +5,7 @@ class Pessoa:
         self.children = list(children)
 
     def cumprimentar(self):
-        return f'Olá {id(self)}'
+        return f'Olá pessoal, este é o meu ID {id(self)}'
 
 
 if __name__ == '__main__':
