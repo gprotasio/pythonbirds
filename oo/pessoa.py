@@ -10,10 +10,11 @@ class Pessoa:
 
 if __name__ == '__main__':
     p = Pessoa('Luciano')
+    i = Pessoa(40)
     print(Pessoa.cumprimentar(p))
     print(id(p))
     print(p.cumprimentar())
     print(p.name)
-    p.nome = 'George'
+    p.name = 'George'
     print(p.name)
     print(p.age)
