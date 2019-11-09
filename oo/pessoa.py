@@ -7,7 +7,6 @@ class Pessoa:
     def cumprimentar(self):
         return f'Olá pessoal, este é o meu ID: {id(self)}'
 
-
 if __name__ == '__main__':
     julie = Pessoa(name='Julie', age=32)
     marise = Pessoa(name='Marise', age=38)
