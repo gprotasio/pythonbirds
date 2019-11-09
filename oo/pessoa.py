@@ -9,11 +9,15 @@ class Pessoa:
 
 
 if __name__ == '__main__':
+    gizelly = Pessoa(name='Gizelly', age=32)
+    paula = Pessoa(name='Paula', age=38)
     george = Pessoa(name='George', age=40)
-    carlos = Pessoa(george, name='Carlos', age=63)
+    carlos = Pessoa(george, paula, gizelly, name='Carlos', age=63)
     print(Pessoa.cumprimentar(carlos))
     print(id(carlos))
     print(carlos.cumprimentar())
+    print(carlos.age)
     for children in carlos.children:
         print(children.name)
         print(children.age)
+
