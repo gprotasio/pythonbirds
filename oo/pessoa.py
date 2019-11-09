@@ -1,10 +1,22 @@
 class Pessoa:
     def __init__(self, *children, name=None, age=None):
+        """
+
+        :param children: Instância Filhos
+        :param name: Atribui Nome
+        :param age: Atribui Idade
+
+        """
         self.age = age
         self.name = name
         self.children = list(children)
 
     def cumprimentar(self):
+        """
+
+        :return: Retorna mensagem do usuário
+
+        """
         return f'Olá pessoal, este é o meu ID: {id(self)}'
 
 if __name__ == '__main__':
