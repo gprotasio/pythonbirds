@@ -2,7 +2,7 @@ class Pessoa:
     def __init__(self, *children, name=None, age=None):
         """
 
-        :param children: Instância Filhos
+        :param children: Instancia Filhos
         :param name: Atribui Nome
         :param age: Atribui Idade
 
